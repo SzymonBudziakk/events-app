@@ -1,9 +1,12 @@
+import Header from '@/components/layout/Header.tsx';
+import LandingPage from '@/components/layout/LandingPage.tsx';
+
 function App() {
 
   return (
       <>
-        <div>App Component</div>
-        <div className='text-red-600'>SIEMA SIEMA SIEMA</div>
+          <Header/>
+          <LandingPage/>
       </>
   )
 }
